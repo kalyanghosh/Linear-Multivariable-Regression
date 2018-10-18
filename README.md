@@ -23,7 +23,7 @@ between the dependent variable Y and a 5-tuple of independent variables X1, X2, 
    ![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/histogramX1.png)</br>
    
    
-   Mean of X1=  40.371115600000024
+   <b>Mean of X1</b>=  40.371115600000024
    
 2. Use a box plot or any other function to remove outliers.
 
