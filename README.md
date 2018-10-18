@@ -25,16 +25,8 @@ between the dependent variable Y and a 5-tuple of independent variables X1, X2, 
    
    <b>Mean of X1</b>=  40.371115600000024
    
-   Correlation Matrix for all variables:
-   ***************************************
-          0         1         2         3         4         5
-0  1.000000 -0.054110  0.058261 -0.055625  0.067539  0.956172
-1 -0.054110  1.000000  0.041512  0.056898 -0.001131 -0.012087
-2  0.058261  0.041512  1.000000 -0.020289 -0.053005  0.085689
-3 -0.055625  0.056898 -0.020289  1.000000 -0.048236 -0.005024
-4  0.067539 -0.001131 -0.053005 -0.048236  1.000000  0.133062
-5  0.956172 -0.012087  0.085689 -0.005024  0.133062  1.000000
-   
+ 
+   ![CM](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/correlation_matrix.JPG)</br>
    
 2. Use a box plot or any other function to remove outliers.
 
