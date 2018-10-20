@@ -26,11 +26,11 @@ between the dependent variable Y and a 5-tuple of independent variables X1, X2, 
    <b>Mean of X1</b>=  40.371115600000024
    
  
-   ![CM](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/correlation_matrix.JPG)</br>
+   
    
 2. Use a box plot or any other function to remove outliers.
 
 3. Calculate the correlation matrix for all variables, i.e., Y, X1, X2, X3, X4 and X5. Draw conclusions related to possible dependencies among these variables.
 
-
+![CM](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/correlation_matrix.JPG)</br>
 
