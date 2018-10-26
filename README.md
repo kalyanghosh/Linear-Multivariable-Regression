@@ -20,7 +20,7 @@ between the dependent variable Y and a 5-tuple of independent variables X1, X2, 
    
    histogram, mean, variance
    
-   ![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/histogramX1.png)</br>
+   ![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/histogram_of_variables1_1.png)</br>
    
    
    <b>Mean of X1</b>=  40.371115600000024
