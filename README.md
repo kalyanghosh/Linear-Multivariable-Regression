@@ -43,7 +43,6 @@ done during the model building phase (see tasks 2 and 3).
 <b>Comment:</b> From the above box plots, we see that median of the values for the variable X1 is around 40, the median for X2 is around 100, median for X3 is around 150, median for X4 is around 230 and for X5 is around 265.  
 We also see from the box plot of Y, that the median value lies around 6100.
 
- ![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/boxplot1.JPG)</br>
 
 Interquartile Ranges:
 
@@ -60,7 +59,7 @@ We see, that most of the outliers are removed after outlier removal.
 
 
 
-13. Calculate the correlation matrix for all variables, i.e., Y, X1, X2, X3, X4 and X5. Draw conclusions related to possible dependencies among these variables.
+1.3 Calculate the correlation matrix for all variables, i.e., Y, X1, X2, X3, X4 and X5. Draw conclusions related to possible dependencies among these variables.
 
 ![CM](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/cm1.JPG)</br>
 
