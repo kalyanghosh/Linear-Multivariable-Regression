@@ -102,3 +102,23 @@ Comment:
 •	A high value R squared (92.7%) means that almost 93% of out dependent variable (Y) can be explained 
 •	Here a high value of F (3638) indicates that the value of MSTR is much greater than MSE. The F value in regression is the result of a test where the null hypothesis is that all of the regression coefficients are equal to zero. In other words, the model has no predictive capability. Here we get a significant F value which means that  our  coefficients you included in your model improved the model’s fit than an intercept only model.
 
+2.3 Plot the regression line against the data.
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/Linear_Regression.png)</br>
+
+Comment:
+In the above plot, we see that the linear line (in orange) fits the data distribution(blue) to some extent but we can do better and check with a higher order polynomial.
+
+2.4 Do a residuals analysis:
+
+a. Do a Q-Q plot of the pdf of the residuals against N (0, s2) In addition, draw the residuals
+histogram and carry out a χ2 test that it follows the normal distribution N (0, s2).
+
+b. Do a scatter plot of the residuals to see if there are any correlation trends
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slr2.JPG)</br>
+
+
+
+
+
