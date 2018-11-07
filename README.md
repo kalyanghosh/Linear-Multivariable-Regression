@@ -118,6 +118,57 @@ b. Do a scatter plot of the residuals to see if there are any correlation trends
 
 ![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slr2.JPG)</br>
 
+Comment:
+In the above QQ plot, we see that there are some deviations from an ideal normal distribution. Looking at the Q-Q plot for the graph we can see that the points depart upward from the straight red line as we follow the quantiles from left to right. The red line shows where the points would fall if the dataset were normally distributed. The point’s trend upward shows that the actual quantiles are greater than the theoretical quantiles, meaning that there is a greater concentration of data beyond the right side of a Gaussian distribution.
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slr3.JPG)</br>
+
+Comment:
+The above histogram of residuals also supports our previous claim that the residuals are follow a right skewed normal distribution.
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slr4.JPG)</br>
+
+Comment:
+The above is the curve fitted to the residuals of the error which shows that the distribution is right skewed.
+
+Chi-Squared Test on the Residuals:
+
+NormaltestResult (statistic=4.764421438913091, pvalue=0.09234620014167678)
+
+Comment:
+
+A 2-tuple of the chi-squared statistic, and the associated p-value. Given the null hypothesis that x came from a normal distribution, the p-value represents the probability that a chi-squared statistic that large (or larger) would be seen.
+If the p-val is very small, it means it is unlikely that the data came from a normal distribution. 
+Here, if p<0.055, we can say that the residuals do not come from Normal Distribution. But here the pvalue is 0.09>0.055 we cannot reject the Null Hypothesis and can conclude the residuals follow a normal distribution even though the residuals are coming from skewed normal distribution.
+
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slr5.JPG)</br>
+
+
+Comment:
+
+Here, we see that the residuals do follow a particular model and there is a trend. This means that the linear model is not a good fit for the model and there is room for improvement in the model and a non linear model is a better fit to the data.
+
+
+2.5 Use a higher-order polynomial regression, i.e., Y = a0 + a1X + a2X2 + ε, to see if it gives better results. 
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slr6.JPG)</br>
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slr7.JPG)</br>
+
+P value: 0%
+R squared: 0.98
+F statistic: 7026
+
+Comment:
+
+•	A low p-value for the constant,X1 and X1 squared term are significant for a 95% confidence interval. This means if we can take the variables (constant ,X1and the X1 squared) if we are considering a 95% confidence interval.
+
+•	A high value of R squared(98%) means that almost 98% of out dependent variable (Y) can be explained. This means 98% of the variability in the data can be explained with this model.
+
+•	Here a high value of F (7026) indicates that the value of MSTR is much greater than MSE. The F value in regression is the result of a test where the null hypothesis is that all of the regression coefficients are equal to zero. In other words, the model has no predictive capability. Here we get a significant F value which means that our coefficients(constant, X1 and X1 squared) you included in your model improved the model’s fit than an intercept only model.  
+
+
 
 
 
