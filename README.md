@@ -70,3 +70,21 @@ We now, look into the correlations among the independent variables. We see that 
 Similarly, there are small positive & negative correlations among the different independent variables, but those correlations are not of much significance as the values are all less than 0.1
 
 
+## TASK 2: Simple Linear Regression:
+Carry out a simple linear regression to estimate the parameters of the model: Y = a0 + a1X1 + ε.
+
+2.1 Determine the estimates for a0, a1, and σ2.
+Value of a0= 3226.11
+Value of a1= 83.14
+Value of variance= 205627.37
+
+Comment:
+
+The value of a0 is the expected value of Y when our variable is 0
+The value of a1 is the coefficient for the variable X1. It is also the slope of the straight line that we are fitting.
+The variance is the is the error term which accounts for the randomness in our data which our model cannot explain.
+
+2.2 Check the p-values, R2, and F value to determine if the regression coefficients are significant.
+
+![CM](![CM](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/cm1.JPG)</br>
+
