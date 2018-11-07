@@ -157,7 +157,9 @@ Here, we see that the residuals do follow a particular model and there is a tren
 ![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slr7.JPG)</br>
 
 P value: 0%
+
 R squared: 0.98
+
 F statistic: 7026
 
 Comment:
