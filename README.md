@@ -74,8 +74,11 @@ Similarly, there are small positive & negative correlations among the different 
 Carry out a simple linear regression to estimate the parameters of the model: Y = a0 + a1X1 + ε.
 
 2.1 Determine the estimates for a0, a1, and σ2.
+
 Value of a0= 3226.11
+
 Value of a1= 83.14
+
 Value of variance= 205627.37
 
 Comment:
@@ -86,5 +89,16 @@ The variance is the is the error term which accounts for the randomness in our d
 
 2.2 Check the p-values, R2, and F value to determine if the regression coefficients are significant.
 
-![CM](![CM](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/cm1.JPG)</br>
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slr1.JPG)</br>
+
+P value: 0%
+
+R squared: 0.927
+
+F statistic: 3638
+
+Comment:
+•	A low p-value (0%) indicates that the results are statistically significant, that is in general the p-value is less than 0.05. That means we reject the null hypothesis, and which means the variable X1 is indeed important.
+•	A high value R squared (92.7%) means that almost 93% of out dependent variable (Y) can be explained 
+•	Here a high value of F (3638) indicates that the value of MSTR is much greater than MSE. The F value in regression is the result of a test where the null hypothesis is that all of the regression coefficients are equal to zero. In other words, the model has no predictive capability. Here we get a significant F value which means that  our  coefficients you included in your model improved the model’s fit than an intercept only model.
 
