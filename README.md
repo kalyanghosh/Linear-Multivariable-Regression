@@ -170,6 +170,46 @@ Comment:
 
 •	Here a high value of F (7026) indicates that the value of MSTR is much greater than MSE. The F value in regression is the result of a test where the null hypothesis is that all of the regression coefficients are equal to zero. In other words, the model has no predictive capability. Here we get a significant F value which means that our coefficients(constant, X1 and X1 squared) you included in your model improved the model’s fit than an intercept only model.  
 
+Comment:
+
+Here, we see that the R squared value(98%) and the F statistic increase which means that 98% of our data is explained by our model which is better than the previous on linear model where only (93%) of the data was explained.
+
+QQ Plot:
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slrn1.JPG)</br>
+
+Comment:
+
+In the above QQ plot, there is no deviation from the red straight line. This means the errors are following the normal distribution better than the linear model.
+
+Histogram:
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slrn2.JPG)</br>
+
+Comment:
+In the above histogram plot, we see that the error residuals are fitting the normal distribution better than the linear model.
+
+Chi Squared Test:
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slrn3.JPG)</br>
+
+From the above values of the Chi Squared Test, we see that the P value is 0.133 which is greater than 0.05, which means that we accept the Null Hypothesis which means the the residuals are indeed coming from a Normal Distribution.
+
+Scatter lot of Residual:
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/slrn4.JPG)</br>
+
+Comment:
+
+In the above scatter plot, we observe that the residuals has no particular trend. This means that this higher order polynomial is a better fit to the data distribution.
+
+
+
+
+
+
+
+
 
 
 
