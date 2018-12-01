@@ -204,6 +204,37 @@ Comment:
 In the above scatter plot, we observe that the residuals has no particular trend. This means that this higher order polynomial is a better fit to the data distribution.
 
 
+## TASK 3: Linear Multivariate Regression:
+
+3.1 Carry out a multivariable regression on all the independent variables, and determine the values for all the coefficients, and σ2.
+
+Value of intercept= -21.618
+Value of a1= 80.20
+Value of a2= 1.93
+Value of a3= 1.84
+Value of a4= 4.07
+Value of a5= 7.06
+
+Value of variance= 4.156528e+06
+
+
+3.2.  Based on the p-values, R2, F value, and correlation matrix, identify which independent
+variables need to be removed (if any) and go back to step 3.1.
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/1122018_1.JPG)</br>
+
+Correlation Matrix: 
+
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/1122018_2.JPG)</br>
+
+
+Comment:
+In the above model summary screenshot, we see that the p values for variable X2 and X3 are high and these variables can be removed from the model.
+The R squared value show that 93% of the data is explained by our model.
+
+
+Now, we will remove the variables which are insignificant to our model
 
 
 
