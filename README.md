@@ -237,6 +237,50 @@ The R squared value show that 93% of the data is explained by our model.
 Now, we will remove the variables which are insignificant to our model
 
 
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/new1.JPG)</br>
+
+Comment:
+In the above table, we see that after removal of the variables X2 and X3, the R squared valued values increases a lot (99.7%). The F statistic value has also increased. Now we will use these variables form now on.
+Now,
+
+Value of a1=80.26
+Value of a4=4.95
+Value of a5=7.92
+
+Error Variance=125637.76598
+
+3.3.  Do a residuals analysis:
+a. Do a Q-Q plot of the pdf of the residuals against N(0, s2). In addition, draw the residuals
+histogram and carry out a χ2 test that it follows the normal distribution N(0, s2).
+b. Do a scatter plot of the residuals to see if there are any trends.
+
+a>QQ Plot
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/new2.JPG)</br>
+
+Comment:
+From the QQ plot, we see that the higher and lower quantile values are not following the Normal Distribution. It means that the lower tail rises quickly and the higher tail decreases quickly. This   behavior usually means our data have more extreme values than would be expected if they truly came from a Normal distribution. But in our case, we can see that the values are coming from a skewed normal distribution.
+
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/new3.JPG)</br>
+
+
+Comment:
+From the above histogram of residuals plot, we see that the plot is skewed. It rises quickly and has a long tail towards right.
+
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/new4.JPG)</br>
+
+Comment:
+From the diagram we, see that the p value is 0.07 which is greater than 0.05 for a 95% confidence interval. Hence our assumption that the residuals come from a normal distribution is true and the null hypothesis holds.
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/new5.JPG)</br>
+
+![Histogram1](https://github.com/kalyanghosh/Linear-Multivariable-Regression/blob/master/plots/new6.JPG)</br>
+
+Comment:
+We would not expect there to be any correlation between the residuals. This is shown by autocorrelation scores being below the threshold of significance (dashed and dotted horizontal lines on the plot).
+From the above residual, plot we see that as the non-random (U-shaped and inverted U), suggesting a better fit for a non-linear model. Since in the 2nd case, we had fit a non-linear model to the data, the fit was very nice and the residuals did not show any particular trend.
 
 
 
